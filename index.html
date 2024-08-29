@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Upload</title>
+    <link rel="stylesheet" type="text/css" href="D:\HTML with CSS and Java script\modal.css">
+</head>
+<body>
+    <h1>File Upload</h1>
+    <form>
+        Select an Excel file to upload:
+        <input type="file" id="fileInput" accept="application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">
+        <input type="button" value="Upload Excel File" onclick="uploadFile()">
+    </form>
+
+    <!-- Modal Dialog -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p id="modalMessage">Response message will appear here.</p>
+        </div>
+    </div>
+
+    <script src="D:\HTML with CSS and Java script\your-script.js"></script>
+</body>
+</html>
